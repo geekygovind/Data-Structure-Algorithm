@@ -1,0 +1,14 @@
+class Solution {
+    public char findTheDifference(String s, String t) {
+        char[] schars = s.toCharArray();
+        char[] tchars = t.toCharArray();
+
+        Arrays.sort(schars);
+        Arrays.sort(tchars);
+
+        int i = 0;
+        while(i < schars.length && schars[i] == tchars[i]) i++;
+
+        return tchars[i];
+    }
+}
