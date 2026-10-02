@@ -6,6 +6,7 @@ class Solution {
     }
     public int gs(int a, int b){
         if(b==0) return a;
+
         return gs(b, a%b);
     }
 }
