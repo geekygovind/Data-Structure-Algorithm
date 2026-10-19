@@ -8,6 +8,7 @@ class Node {
     }
 } */
 
+
 class Solution {
     public Node deleteMid(Node head) {
         // code here
