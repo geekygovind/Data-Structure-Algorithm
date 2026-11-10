@@ -14,6 +14,7 @@ class Solution {
         for(char c : ss.toCharArray()){
             if(row.indexOf(Character.toLowerCase(c)) == -1) return false;
         }
+
         return true;
     }
 }
