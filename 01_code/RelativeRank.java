@@ -19,6 +19,7 @@ class Solution {
 
         for(int i = 0; i < score.length; i++) arr[i] = mp.get(score[i]);
 
+
         return arr;
 
     }
