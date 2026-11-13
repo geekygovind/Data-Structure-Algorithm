@@ -10,6 +10,7 @@ class Solution {
             int curmin = Math.min(height[left], height[right])* (right-left);
             mx = Math.max(curmin, mx);
 
+
             if(height[left]< height[right]) left ++;
             else right --;
         }
