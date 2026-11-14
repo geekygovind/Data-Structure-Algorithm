@@ -22,6 +22,7 @@ class Solution {
             if(temp.data == temp.next.data){
                 temp.next = temp.next.next;
                 if(temp.next != null) temp.next.prev = temp;
+
             }
             else temp = temp.next;
         }
