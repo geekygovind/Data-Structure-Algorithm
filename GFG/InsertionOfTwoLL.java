@@ -25,6 +25,7 @@ class Solution {
             st.add(head2.data);
             head2 = head2.next;
         }
+
         
         while(head1 != null){
             if(st.contains(head1.data)){
