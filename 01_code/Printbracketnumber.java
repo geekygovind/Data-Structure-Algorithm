@@ -18,6 +18,7 @@ class Solution {
                 r.add(st.pop());
             }
         }
+
         return r;
     }
 };
