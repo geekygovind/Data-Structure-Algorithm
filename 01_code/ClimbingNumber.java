@@ -11,6 +11,7 @@ class Solution {
             curr += prev;
             prev = temp;
         }
+
         return curr;
     }
 }
